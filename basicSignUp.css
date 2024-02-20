@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("animated\ nature.jpg");
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.navbar {
+    /* border: 1px solid red; */
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    text-decoration: none;
+    background-color: black;
+    opacity: 0.7;
+
+
+}
+
+.navbar a {
+
+    color: #e9c46a;
+    text-decoration: none;
+
+}
+
+
+
+.contentbox {
+    /* border: 1px solid red; */
+    height: 30rem;
+    width: 36vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.6;
+}
+
+
+.footer {
+    /* border: 1px solid red; */
+    height: 4rem;
+    width: 100vw;
+    background-color: #000;
+    opacity: 0.7;
+    color: white;
+
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    color: #e9c46a;
+
+}
+
+form {
+    /* border: 1px solid red; */
+    height: 28rem;
+    width: 20rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 500ms ease-in;
+
+
+}
+
+input[type="text"] {
+    height: 2rem;
+    width: 16rem;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+input[type="password"] {
+    height: 2rem;
+    width: 16rem;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+button {
+    height: 2.3rem;
+    width: 8rem;
+    border-radius: 2rem;
+    background-color: #0575E6;
+
+}
+
+form:hover {
+    transform: scale(1);
+    box-shadow: 0px -25px 255px 92px rgba(0, 0, 0, 0.45),
+        25px 0px 20px -20px rgba(0, 0, 0, 0.45),
+        0px 25px 20px -20px rgba(0, 0, 0, 0.45),
+        -25px 0px 20px -20px rgba(0, 0, 0, 0.45);
+    transform: translate(0px, -30px);
+}
+
+p {
+    text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .contentbox {
+        width: 80vw;
+
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        width: 70%;
+
+    }
+
+
+}
+
+@media screen and (max-width: 480px) {
+    .contentbox {
+        width: 90vw;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        width: 80%;
+    }
+
+}
