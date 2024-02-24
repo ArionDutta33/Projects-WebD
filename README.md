@@ -1,1 +1,1 @@
-# Basic webpages using HTMLC & CSS
+# Basic webpages using HTML & CSS
